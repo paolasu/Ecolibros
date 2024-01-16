@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../ecolibros/Imagenes/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+    justify-content: center;
+}
+
+
+.black-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 60%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el cuadro horizontalmente */
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+
+.black-header {
+    background-color: #000; /* Color negro para el header */
+    color: #fff; /* Color blanco para el texto en el header */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 80px; /* Puedes ajustar este valor según sea necesario */
+    height: auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.subscribe-btn {
+    background-color: #3d673c; /* Color verde para el botón */
+    color: #fff; /* Color blanco para el texto del botón */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe-btn1 {
+    background-color: #3d673c;
+    color: #fff;
+    padding: 15px; /* Ajusta el padding del botón para hacerlo más alto */
+    width: 100%; /* Hace que el botón ocupe todo el ancho del .black-overlay */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Ajusta el margen superior del botón según tus necesidades */
+}
+.main-content {
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h2, h3{
+    font-family:'Courier New', Courier, monospace;
+}
+h1, h2, h3 {
+    color: #fff; /* Color oscuro para los títulos */
+    margin: 10px 0;
+     /* Ajusta el margen de los elementos de texto según tus preferencias */
+
+    }
+    
+    .black-footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        transition: opacity 0.3s ease; /* Agrega una transición de opacidad para suavizar el efecto */
+    }
+    
+    .black-footer p {
+        margin: 5px 0;
+    }
+    .hidden {
+        display: none;
+    }

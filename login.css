@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333; /* Establece el color de fondo negro aquí */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    background-image: url('../Ecolibros2/Imagenes/Login.png'); /* Agrega la imagen de fondo aquí */
+}
+
+/* Estilos específicos para el encabezado negro */
+.black-header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    background-color: #3d673c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px; /* Ajusta la distancia vertical del botón Suscríbete */
+}
+.login-btn {
+    margin-top: 30px; /* Ajusta la distancia vertical del botón "Acceder" */
+}
+
+
+
+/* Estilos para el contenedor de inicio de sesión */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Negro suave como fondo */
+    padding: 15px; /* Ajusta el padding según tus necesidades */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para un efecto elevado */
+    text-align: center;
+    margin: 100px auto; /* Ajusta el margen y quita el margen superior */
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+    color: #fff; /* Letra blanca */
+}
+
+.login-container form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #fff; /* Fondo blanco para los campos de entrada */
+    color: #333; /* Texto oscuro para los campos de entrada */
+}
+
+.login-container button {
+    background-color: #3d673c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Botón igual de ancho que el contenedor */
+}
+.black-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    transition: opacity 0.3s ease; /* Agrega una transición de opacidad para suavizar el efecto */
+}
+
+.black-footer p {
+    margin: 5px 0;
+}
+.hidden {
+    display: none;
+}

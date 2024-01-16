@@ -1,0 +1,169 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Cambia el color de fondo negro aquí */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    color: #fff;
+     /* Agrega la imagen de fondo aquí */
+}
+
+.profile-title {
+    color: #fff; /* Cambia el color del título a blanco */
+}
+.black-header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.black-header {
+    position: fixed; /* Fija la posición del header */
+    top: 0; /* Coloca el header en la parte superior */
+    width: 100%; /* Ancho completo del header */
+    z-index: 1000; /* Asegura que el header esté en la parte superior */
+}
+.logo img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    background-color: #3d673c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px; /* Ajusta la distancia vertical del botón Suscríbete */
+}
+.login-btn {
+    margin-top: 30px; /* Ajusta la distancia vertical del botón "Acceder" */
+}
+.container {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+/* Copia y pega el contenido de la sección de estilos aquí */
+
+.avatar-options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-preview {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.avatar-preview img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.avatar-preview:hover img {
+    border: 2px solid #4caf50;
+}
+
+input[type="file"] {
+    margin-top: 20px;
+}
+
+.info-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,
+select {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 70%; /* Hace que el botón tenga el mismo ancho que los inputs */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Ajusta el margen inferior del botón */
+    margin-left: 180px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.black-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    transition: opacity 0.3s ease; /* Agrega una transición de opacidad para suavizar el efecto */
+}
+
+.black-footer p {
+    margin: 5px 0;
+}
+.hidden {
+    display: none;
+}
